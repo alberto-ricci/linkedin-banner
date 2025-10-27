@@ -14,7 +14,7 @@ export default function HeaderSection() {
 			</p>
 
 			<p className="text-sky-300 text-[1.35rem] font-medium">
-				Aspiring Game Developer 🎮 | Creative Technologist 💡
+				Aspiring Game Developer & Tech Enthusiast
 			</p>
 		</div>
 	);

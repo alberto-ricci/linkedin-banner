@@ -9,8 +9,8 @@ import {
 
 export default function SkillsSection() {
 	const roles = [
-		{ icon: <FaProjectDiagram />, label: "Project Management" },
-		{ icon: <FaCode />, label: "Programming" },
+		{ icon: <FaProjectDiagram />, label: "Agile Project Management" },
+		{ icon: <FaCode />, label: "Full Stack Programming" },
 		{ icon: <FaRobot />, label: "AI & Automation" },
 		{ icon: <FaGamepad />, label: "Game Dev" },
 		{ icon: <FaHandsHelping />, label: "Volunteering" },
@@ -21,12 +21,12 @@ export default function SkillsSection() {
 			{roles.map((role, index) => (
 				<div
 					key={index}
-					className="flex flex-col items-center group transition-transform duration-300 hover:scale-110"
+					className="flex flex-col items-center group "
 				>
 					<div className="text-7xl mb-2 text-sky-300">
 						{role.icon}
 					</div>
-					<p className="text-xl text-gray-300 group-hover:text-sky-200 transition-colors whitespace-nowrap">
+					<p className="text-xl text-gray-300  whitespace-nowrap">
 						{role.label}
 					</p>
 				</div>
