@@ -51,9 +51,6 @@ export default function Banner() {
 					className="absolute bottom-0 left-0 w-full h-[3px]
                  bg-lineart-to-r from-sky-400 via-fuchsia-500 to-cyan-400"
 				></div>
-
-				{/* Safe zone indicator (optional, remove later) */}
-				{/* <div className='absolute left-0 bottom-0 w-[360px] h-full bg-black/10'></div> */}
 			</div>
 
 			{/* Download button */}

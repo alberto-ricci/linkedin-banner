@@ -17,16 +17,16 @@ export default function SkillsSection() {
 	];
 
 	return (
-		<div className="flex gap-10 justify-end mt-4">
+		<div className="flex gap-16 justify-end mt-6">
 			{roles.map((role, index) => (
 				<div
 					key={index}
 					className="flex flex-col items-center group transition-transform duration-300 hover:scale-110"
 				>
-					<div className="text-3xl mb-1 text-sky-300">
+					<div className="text-7xl mb-2 text-sky-300">
 						{role.icon}
 					</div>
-					<p className="text-xs text-gray-300 group-hover:text-sky-200 transition-colors whitespace-nowrap">
+					<p className="text-xl text-gray-300 group-hover:text-sky-200 transition-colors whitespace-nowrap">
 						{role.label}
 					</p>
 				</div>
