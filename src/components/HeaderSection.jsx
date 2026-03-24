@@ -10,7 +10,7 @@ export default function HeaderSection() {
 
 			{/* Increased about +30% */}
 			<p className="text-[1.35rem] text-gray-200 leading-snug">
-				Automation Architect – AI & Telemetry @ The Access Group
+				Project Manager
 			</p>
 
 			<p className="text-sky-300 text-[1.35rem] font-medium">
